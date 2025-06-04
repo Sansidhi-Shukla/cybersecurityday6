@@ -1,0 +1,68 @@
+Best Practices:- 
+  1. length should be atleat 12-16 charecters
+  2. Complexity can be increased by using mixed word of charecters like Uppercase, Lowercase, Numbers and Symbols
+  3. We should avoid use of common words and patters
+  4.  Use passphrases i.e. combine random words or a sentence you can remember, example: BlueCar$Drives!Fast2025
+  5. Avoid reusing passwords
+  6. Avoid reusing passwords
+  7. Never share your passwords
+
+Tips learned from the evaluation :-
+  1. Dont't use same type of charecters consecutevily. That is if possible avoid consecutive numbers or Uppercase
+  2. Many users still choose weak or guessable passwords so don't use vewy obvious patters
+  3. Short passwords are vulnerable to brute-force attacks
+  4. Lack of special characters and case variety weakens security
+  5. 2FA adoption is low but highly effective
+  6. Changing passwords too frequently leads to bad habits
+
+Common Passwords Attack :- 
+  1. Brute Force Attack
+    How it works: The attacker tries all possible combinations of characters until the correct password is found.
+      Example: Trying aaaa, aaab, aaac, ..., up to zzzz.
+      Defense:
+          1. Use long and complex passwords
+          2. Implement account lockouts after several failed attempts
+          3. Use rate-limiting and 2FA
+  2. Dictionary Attack
+      How it works: The attacker uses a precompiled list of common passwords or words (like a dictionary) to guess the password.
+        Example: Trying password, letmein, 123456, monkey, etc.
+        Defense:
+          1. Avoid common or dictionary-based passwords
+          2. Use passphrases that combine unrelated words and symbols
+  3. Credential Stuffing
+      How it works: Attackers use leaked username-password pairs from data breaches to try and log in to other services.
+        Example: If your email and password were leaked in a breach, attackers try the same pair on other sites.
+        Defense:
+          1. Do not reuse passwords across sites
+          2. Use 2FA
+          3. Monitor for data breaches using tools like HaveIBeenPwned
+  4. Phishing
+      How it works: Attackers trick users into revealing passwords via fake emails or websites.
+        Example: A fake email from "your bank" asking you to log in.
+        Defense:
+          1. Be cautious with email links
+          2. Verify URLs and senders
+          3. Use browser warnings and email filters
+  5. Keylogging
+      How it works: Malicious software records everything you type, including passwords.
+        Defense:
+          1. Keep systems updated
+          2. Use antivirus software
+          3. Avoid downloading unknown files or apps
+  6. Rainbow Table Attack
+      How it works: Uses precomputed hash values to crack hashed passwords quickly.
+        Defense:
+          1. Use salting (adding random data before hashing passwords)
+          2. Use strong hash functions (e.g., bcrypt, Argon2)
+  7. Shoulder Surfing
+      How it works: Physically observing someone typing their password.
+        Defense:
+          1. Be aware of surroundings
+          2. Use privacy screens in public
+          3. Use biometric login (fingerprint/face)
+
+Summarize how password complexity affects security:-
+  Password complexity greatly enhances security by making it harder for attackers to guess or crack a password through common attack methods like brute force and dictionary attacks.
+  Use a password manager to generate and store complex, unique passwords for each account. Combine complexity with multi-factor authentication (MFA) for maximum security.
+
+
